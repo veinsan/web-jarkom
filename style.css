@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, 'Segoe UI', sans-serif;
+    background: #FDFEFE;
+    color: #318CE4;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 25px;
+}
+
+h1, h2, h3 {
+    color: #318CE4;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+h1 { font-size: 2.5em; font-weight: 700; }
+h2 { font-size: 2em; margin-top: 40px; }
+h3 { font-size: 1.4em; }
+
+p {
+    color: #7B89AE;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+ul {
+    color: #7B89AE;
+    margin-left: 25px;
+    line-height: 1.9;
+}
+
+nav {
+    width: 100%;
+    background: #DAE5F9;
+    padding: 18px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(49, 140, 228, 0.15);
+    border-bottom: 3px solid #A0CEF5;
+}
+
+nav a {
+    text-decoration: none;
+    color: #318CE4;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 0 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #6EC7F9;
+    color: white;
+}
+
+nav a.active {
+    background: #318CE4;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 40px;
+    background: linear-gradient(135deg, #FCFAFB 0%, #DAE5F9 100%);
+    border: 2px solid #A0CEF5;
+    border-radius: 20px;
+    box-shadow: 0 4px 16px rgba(49, 140, 228, 0.12);
+    margin-bottom: 40px;
+}
+
+.hero img {
+    width: 280px;
+    max-width: 90%;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 16px rgba(49, 140, 228, 0.2);
+    border: 3px solid #A0CEF5;
+}
+
+.hero h1 {
+    margin-top: 15px;
+    font-size: 3em;
+    color: #318CE4;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #7B89AE;
+    font-weight: 300;
+}
+
+.stats-grid {
+    display: table;
+    width: 100%;
+    margin: 30px 0;
+    border-spacing: 15px;
+}
+
+.stat-box {
+    display: table-cell;
+    background: linear-gradient(135deg, #6EC7F9 0%, #318CE4 100%);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 12px rgba(49, 140, 228, 0.3);
+    width: 25%;
+}
+
+.stat-box .number {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-box .label {
+    font-size: 1em;
+}
+
+.card-grid {
+    display: table;
+    width: 100%;
+    margin-top: 35px;
+    border-spacing: 20px;
+}
+
+.card {
+    display: table-cell;
+    background: #FCFAFB;
+    border: 2px solid #A0CEF5;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(49, 140, 228, 0.08);
+    vertical-align: top;
+}
+
+.card:hover {
+    background: #DAE5F9;
+    border-color: #6EC7F9;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+    color: #318CE4;
+}
+
+.card p {
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+.quote-box {
+    background: linear-gradient(135deg, #6EC7F9 0%, #318CE4 100%);
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(49, 140, 228, 0.3);
+}
+
+.quote-box p {
+    color: white;
+    font-size: 1.3em;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.quote-box .author {
+    color: white;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.content-box {
+    background: #FCFAFB;
+    border: 2px solid #A0CEF5;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 25px 0;
+    box-shadow: 0 4px 12px rgba(49, 140, 228, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th {
+    background: #DAE5F9;
+    color: #318CE4;
+    padding: 12px;
+    border: 2px solid #A0CEF5;
+    font-weight: 600;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #BCC1DB;
+    color: #7B89AE;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #FCFAFB;
+}
+
+form {
+    background: #FCFAFB;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #A0CEF5;
+    margin-top: 25px;
+}
+
+form label {
+    color: #318CE4;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    border: 2px solid #BCC1DB;
+    border-radius: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+form button {
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6EC7F9 0%, #318CE4 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(49, 140, 228, 0.3);
+}
+
+form button:hover {
+    background: #318CE4;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #9EBCEB 0%, #A0CEF5 100%);
+    color: white;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #6EC7F9 0%, #318CE4 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    margin: 5px;
+    box-shadow: 0 4px 12px rgba(49, 140, 228, 0.3);
+}
+
+.btn:hover {
+    background: #318CE4;
+}
+
+.btn-outline {
+    background: white;
+    color: #318CE4;
+    border: 3px solid #318CE4;
+}
+
+.highlight {
+    background: linear-gradient(135deg, #DAE5F9 0%, #BCC1DB 100%);
+    padding: 25px;
+    border-radius: 12px;
+    border: 2px solid #A0CEF5;
+    margin: 20px 0;
+}
+
+.highlight-blue {
+    background: linear-gradient(135deg, #6EC7F9 0%, #318CE4 100%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 16px rgba(49, 140, 228, 0.3);
+}
+
+.highlight-blue h2,
+.highlight-blue h3,
+.highlight-blue p {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 25px;
+    background: #DAE5F9;
+    border-top: 3px solid #A0CEF5;
+    margin-top: 60px;
+}
+
+footer p {
+    margin: 0;
+    color: #7B89AE;
+    font-weight: 500;
+}
