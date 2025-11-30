@@ -21,17 +21,6 @@ Semua halaman dirancang dengan fokus pada kreativitas, konsistensi branding, dan
 - **Contact**  
   Informasi kontak, form sederhana, dan FAQ.
 
-## 🗂️ Struktur File
-/
-├── index.html
-├── uto.html
-├── services.html
-├── about.html
-├── contact.html
-├── style.css
-├── logo.png
-└── uto.png
-
 ## 🛠️ Teknologi yang Digunakan
 - **HTML5**  
 - **CSS3 (custom styling)**  
