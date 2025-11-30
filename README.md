@@ -31,7 +31,6 @@ Semua halaman dirancang dengan fokus pada kreativitas, konsistensi branding, dan
 ├── style.css
 ├── logo.png
 └── uto.png
-/
 
 ## 🛠️ Teknologi yang Digunakan
 - **HTML5**  
