@@ -31,6 +31,7 @@ Semua halaman dirancang dengan fokus pada kreativitas, konsistensi branding, dan
 ├── style.css
 ├── logo.png
 └── uto.png
+/
 
 ## 🛠️ Teknologi yang Digunakan
 - **HTML5**  
@@ -40,11 +41,7 @@ Semua halaman dirancang dengan fokus pada kreativitas, konsistensi branding, dan
 ## 🌐 Deployment
 Website ini dapat di-host menggunakan:
 - Web server Cisco Packet Tracer  
-- Vercel (Framework Preset: *Other*, Output Directory: `.`)
+- Vercel (https://vestiacintaabadi.vercel.app/)
 
 ## 📄 Catatan
 Seluruh konten bersifat fiktif sebagai bagian dari tugas dan dibuat untuk keperluan demonstrasi jaringan komputer, bukan representasi resmi dari entitas mana pun.
-
----
-
-Jika butuh README versi “lebih profesional”, atau screenshot section untuk diperindah, tinggal bilang aja Boss.
